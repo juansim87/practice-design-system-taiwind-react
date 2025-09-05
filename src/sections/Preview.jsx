@@ -1,5 +1,5 @@
-import previewImage from '../../assets/images/pictures/preview-img.png';
-import { Companies } from '../Companies';
+import previewImage from '../assets/images/pictures/preview-img.png';
+import { Companies } from '../components/Companies';
 export const Preview = () => {
 
   return (

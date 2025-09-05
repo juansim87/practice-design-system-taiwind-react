@@ -1,6 +1,7 @@
-import menu from "../../assets/images/icons/menu-actions.png";
-import { Button } from "../Button";
-import logo from "../../assets/images/logos/logo-vector.svg";
+import menu from "../assets/images/icons/menu-actions.png";
+
+import logo from "../assets/images/logos/logo-vector.svg";
+import { Button } from "./Button";
 
 export const NavBar = () => {
     const navLinks = ["Home", "Products", "Features", "Pricing"];

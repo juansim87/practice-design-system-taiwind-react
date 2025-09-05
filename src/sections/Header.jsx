@@ -1,5 +1,5 @@
-import { Container } from "../Container";
-import { NavBar } from "./NavBar";
+import { Container } from "../components/Container";
+import { NavBar } from "../components/NavBar";
 
 export const Header = () => {
     return (

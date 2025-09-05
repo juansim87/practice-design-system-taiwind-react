@@ -1,5 +1,5 @@
-import { BodyMain } from "./components/sections/BodyMain";
-import { Header } from "./components/sections/Header";
+import { BodyMain } from "./sections/BodyMain";
+import { Header } from "./sections/Header";
 
 export const App = () => {
 
