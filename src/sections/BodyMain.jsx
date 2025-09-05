@@ -1,4 +1,4 @@
-import { Activities } from "./Activities";
+import { Services } from "./Services";
 import { Hero } from "./Hero";
 import { Preview } from "./Preview";
 import { Container } from "../components/Container.jsx";
@@ -9,7 +9,7 @@ export const BodyMain = () => {
             <Container>
                 <Hero />
                 <Preview />
-                <Activities />
+                <Services />
             </Container>
         </main>
     );
