@@ -8,7 +8,7 @@ import { FAQ } from "./FAQ.jsx";
 
 export const BodyMain = () => {
     return (
-        <main className="w-full flex flex-col items-center">
+        <main className="w-full flex flex-col items-center border-b border-b-secondary/30">
             <Container className="mb-15 md:mb-24">
                 <Hero />
             </Container>
