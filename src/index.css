@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+@theme {
+    --color-primary: #2563EB;
+    --color-secondary: rgb(176 176 176);
+}
