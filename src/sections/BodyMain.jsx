@@ -2,6 +2,7 @@ import { Services } from "./Services";
 import { Hero } from "./Hero";
 import { Preview } from "./Preview";
 import { Container } from "../components/Container.jsx";
+import { CTAFreeTrial } from "./CTAFreeTrial.jsx";
 
 export const BodyMain = () => {
     return (
@@ -10,6 +11,7 @@ export const BodyMain = () => {
                 <Hero />
                 <Preview />
                 <Services />
+                <CTAFreeTrial/>
             </Container>
         </main>
     );
