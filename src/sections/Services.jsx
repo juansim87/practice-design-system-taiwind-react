@@ -19,7 +19,7 @@ export const Services = () => {
                 <ServiceItem src={code} />
                 <ServiceItem src={code} />
             </div>
-            <div className="w-full hidden md:grid grid-cols-3 gap-x-7.25 gap-y-15">
+            <div className="w-[90%] hidden md:grid grid-cols-3 gap-x-8.25 gap-y-15">
                 <ServiceItem src={stats} />
                 <ServiceItem src={chatLines} />
                 <ServiceItem src={code} />

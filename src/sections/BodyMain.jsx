@@ -4,6 +4,7 @@ import { Preview } from "./Preview";
 import { Container } from "../components/Container.jsx";
 import { CTAFreeTrial } from "./CTAFreeTrial.jsx";
 import { Presentation } from "./Presentation.jsx";
+import { FAQ } from "./FAQ.jsx";
 
 export const BodyMain = () => {
     return (
@@ -20,8 +21,11 @@ export const BodyMain = () => {
             <Container className="mb-15 md:mb-24">
                 <CTAFreeTrial />
             </Container>
-            <Container>
+            <Container className="mb-15 md:mb-24">
                 <Presentation/>
+            </Container>
+            <Container className="mb-15 md:mb-24">
+                <FAQ/>
             </Container>
         </main>
     );
