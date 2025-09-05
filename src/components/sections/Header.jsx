@@ -1,4 +1,4 @@
-import { Container } from "./Container";
+import { Container } from "../Container";
 import { NavBar } from "./NavBar";
 
 export const Header = () => {
